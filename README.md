@@ -1,5 +1,5 @@
 # Augmented Reality:
-This augmented reality application uses OpenCV to overlay an image onto a live webcam feed by detecting keypoints and matching descriptors with the ORB algorithm and FLANN matcher. When enough matches are found, a homography matrix aligns the augmenting image with the input image's keypoints for a seamless overlay. The real-time output can be terminated with the 'Esc' key.
+This augmented reality application uses OpenCV to overlay an image onto a live webcam feed by detecting keypoints and matching descriptors with the ORB algorithm and FLANN matcher. When enough matches are found, a homography matrix aligns the augmenting image with the input image's keypoints for a seamless overlay. 
 
 ## Table of Content
   * [Interface](#interface)
@@ -10,10 +10,11 @@ This augmented reality application uses OpenCV to overlay an image onto a live w
 
 
 ## Interface
-![augment](https://github.com/Akbar-ds/Augmented-Reality/assets/172882659/16d9c6ce-8146-46ce-99b3-549b79478ed1)
-![augment 1](https://github.com/Akbar-ds/Augmented-Reality/assets/172882659/bf4c0ebb-01cb-458e-abf9-a6e73a8180cd)
-![augment 3](https://github.com/Akbar-ds/Augmented-Reality/assets/172882659/9eba6106-1353-4420-a217-ba924e19ef38)
 
+![aug1](https://github.com/Akbar-ds/Augmented-Reality/assets/172882659/819aae60-243b-45ae-9e15-91c80bdaf396)
+![aug2](https://github.com/Akbar-ds/Augmented-Reality/assets/172882659/3dcb0838-230b-4ecc-805a-a48c0541db7c)
+![aug3](https://github.com/Akbar-ds/Augmented-Reality/assets/172882659/6387f31b-b9a5-4510-a040-8c17510bc3e1)
+![aug4](https://github.com/Akbar-ds/Augmented-Reality/assets/172882659/91fe1893-ece0-48da-9876-1a5adc0d057f)
 
 ## Overview
 This augmented reality application uses OpenCV to overlay a predefined image onto a live webcam feed. ORB detects keypoints and computes descriptors, while FLANN finds matches. A homography matrix aligns the augmenting image with the input. The real-time augmented output can be terminated with the 'Esc' key.
